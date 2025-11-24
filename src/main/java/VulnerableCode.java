@@ -94,7 +94,7 @@ public class VulnerableCode {
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
+              e.printStackTrace();
         } finally {
             try {
                 if (stmt != null) stmt.close();
